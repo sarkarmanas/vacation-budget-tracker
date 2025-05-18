@@ -8,3 +8,7 @@ A beautifully designed Vacation Budget Tracker web app that helps users track th
 🍽 Categorize expenses (Food, Accommodation, Transport, etc.)
 💡 Clean, colorful, and intuitive UI
 ⚡ Built with HTML, CSS, JavaScript
+
+🚀 Live Demo
+
+👉 View the project on GitHub Pages(vacation-budget-tracker-52qoevxhw-manas-sarkars-projects.vercel.app)
