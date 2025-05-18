@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌴 Vacation Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+
+  <div class="main-container">
+    <div class="container">
+      <header>
+        <h1>🌴 Vacation Budget Tracker</h1>
+        <p>Plan smart, travel smarter!</p>
+      </header>
+
+      <section class="input-section">
+        <input type="text" id="expenseName" placeholder="e.g., Hotel in Bali" />
+        <input type="number" id="expenseAmount" placeholder="Amount" />
+        <select id="expenseCategory">
+          <option value="Accommodation">Accommodation</option>
+          <option value="Transport">Transport</option>
+          <option value="Food">Food</option>
+          <option value="Activities">Activities</option>
+          <option value="Shopping">Shopping</option>
+        </select>
+        <button onclick="addExpense()">➕ Add</button>
+      </section>
+
+      <section class="summary">
+        <h2>💰 Total Spent: $<span id="total">0.00</span></h2>
+      </section>
+
+      <section id="expenseList" class="cards"></section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
